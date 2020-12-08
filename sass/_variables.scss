@@ -1,0 +1,27 @@
+.border{
+    border: solid 1px;
+    &.b_blue{
+        border: solid 1px blue;
+    }
+    &.b_red{
+        border: solid 1px #b71c1c;
+    }
+    &.b_yellow{
+        border: solid 1px #ffeb3b;
+    }
+}
+.m0{
+    margin: 0;
+}
+.m1{
+    margin: 1rem;
+}
+.p1{
+    padding: 1rem;
+}
+.text-center{
+    text-align: center;
+}
+.black{
+    color: var(--black)
+}
