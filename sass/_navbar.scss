@@ -1,0 +1,42 @@
+@media only screen and (min-width: 993px){
+    nav a.sidenav-trigger {
+        display: block !important;
+    }
+}
+ul.tools{
+    li{
+        padding: 0 .5rem;
+        
+    }
+}
+.sidenav li{
+    a{
+        color: #151515
+    }
+    &.active a, &.active i{
+        color: #1565c0 !important;
+    }
+}
+.avatar_side_menu{
+    background-color: #CFD8DC;
+    padding: 2.5rem 2rem .5rem;
+    figure{
+        margin: 0 0 20px;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background-color: #fff;
+        overflow: hidden;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center center;
+        }
+    }
+    .mail{
+        a{
+            font-weight: 500;
+        }
+    }
+}
