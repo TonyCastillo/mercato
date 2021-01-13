@@ -16,6 +16,13 @@ $(document).ready(function(){
       setTimeout(autoplay, 4500);
   }
 
+  let btn_close = document.getElementById('close_side');
+  btn_close.addEventListener('click', ()=>{
+    $('.sidenav').sidenav();
+  })
+
+
+
 
 
 

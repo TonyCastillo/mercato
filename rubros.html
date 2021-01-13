@@ -5,6 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#90caf9">
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified CSS -->
@@ -23,7 +24,7 @@
               <a href="javascript:void(0);" class="brand-logo left ml50">Rubros activos</a>
               <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
               <ul class="right tools">
-                <li><i class="material-icons">search</i></li>
+                <li class="pl0 pr0"><a href="#" data-target="search" class="sidenav-trigger pl0 pr0"><i class="material-icons">search</i></a></li>
                 <li><i class="material-icons">local_grocery_store</i></li>
               </ul>
             </div>
@@ -38,11 +39,9 @@
                     <a class="white-text" href="mailto:laurabrooke@gmail.com">laurabrooke@gmail.com</a>
                 </div>
             </div>
-            <li class="active"><a href="nuevo-pedido.html"><i class="material-icons left">add_circle_outline</i> Nuevo
-                    Pedido</a></li>
-            <li><a href="#"><i class="material-icons left">network_check</i> Dashboard</a></li>
-            <li><a href="#"><i class="material-icons left">assignment
-                    </i>Historial de pedidos</a></li>
+            <li><a href="nuevo-pedido.html"><i class="material-icons left">add_circle_outline</i>Nuevo Pedido</a></li>
+            <li><a href="dashboard.html"><i class="material-icons left">network_check</i> Dashboard</a></li>
+            <li><a href="#"><i class="material-icons left">assignment</i>Historial de pedidos</a></li>
             <li><a href="#"><i class="material-icons left">cloud</i>Mi Perfil</a></li>
 
             <div class="divider"></div>
@@ -55,13 +54,26 @@
 
 
         </ul>
+        <div class="sidenav search_pop" id="search">
+            <nav>
+                <div class="nav-wrapper blue darken-3">
+                  <form>
+                    <div class="input-field">
+                      <input id="search" type="search" required>
+                      <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                      <i id="close_side" class="material-icons">close</i>
+                    </div>
+                  </form>
+                </div>
+              </nav>
+        </div>
     </section>
     <main>
         <section class="dashboard">
             <div class="products-category-list">
                 <div class="category-box center">
                     <h5 class="white-text">RUBRO A</h5>
-                    <a href="#" class="btn blue mt10">VER EMPRESAS</a>
+                    <a href="rubro-a.html" class="btn blue mt10">VER EMPRESAS</a>
                     <p class="white-text mt10"><span>24</span> Empersas</p>
                 </div>
                 <div class="category-box center">

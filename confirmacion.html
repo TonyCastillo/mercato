@@ -5,6 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#90caf9">
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified CSS -->
@@ -17,11 +18,10 @@
 </head>
 
 <body>
-
     <section class="header">
         <nav>
             <div class="nav-wrapper blue darken-1">
-                <a href="javascript:void(0);" class="brand-logo left ml50">Dashboard</a>
+                <a href="javascript:void(0);" class="brand-logo left ml50">Rubros activos</a>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul class="right tools">
                     <li class="pl0 pr0"><a href="#" data-target="search" class="sidenav-trigger pl0 pr0"><i class="material-icons">search</i></a></li>
@@ -29,7 +29,6 @@
                 </ul>
             </div>
         </nav>
-
         <ul class="sidenav" id="mobile-demo">
             <div class="avatar_side_menu">
                 <figure>
@@ -39,15 +38,11 @@
                     <a class="white-text" href="mailto:laurabrooke@gmail.com">laurabrooke@gmail.com</a>
                 </div>
             </div>
-            <li><a href="nuevo-pedido.html"><i class="material-icons left">add_circle_outline</i> Nuevo
-                    Pedido</a></li>
-            <li class="active"><a href="#"><i class="material-icons left">network_check</i> Dashboard</a></li>
-            <li><a href="#"><i class="material-icons left">assignment
-                    </i>Historial de pedidos</a></li>
+            <li><a href="nuevo-pedido.html"><i class="material-icons left">add_circle_outline</i> Nuevo Pedido</a></li>
+            <li><a href="dashboard.html"><i class="material-icons left">network_check</i> Dashboard</a></li>
+            <li class="active"><a href="historial-pedidos.html"><i class="material-icons left">assignment</i>Historial de pedidos</a></li>
             <li><a href="#"><i class="material-icons left">cloud</i>Mi Perfil</a></li>
-
             <div class="divider"></div>
-
             <div class="pt30">
                 <li><a href="#"><i class="material-icons left">add_circle_outline</i> Configuraciones</a></li>
                 <li><a href="#"><i class="material-icons left">network_check</i> Ayuda</a></li>
@@ -70,51 +65,22 @@
               </nav>
         </div>
     </section>
-
     <main>
-
-        <section class="dashboard">
-            <div class="container">
-                <div class="wellcome_notifications">
-                    <h3 class="m0">Bienvenido a Mercato</h3>
-                    <p class="white-text">Tinenes <span>8</span> nuevas notificaiones</p>
-                </div>
-            </div>
-
-            <div class="grid-content">
-                <div class="container">
-                    <div class="row">
-                        <div class="col s12 p0">
-                            <div class="box">
-                                <a href="rubros.html" class="btn-floating btn-large waves-effect waves-light blue"><i
-                                        class="material-icons">add</i></a>
-                                <div class="content">
-                                    <h5 class="title">Todavía no tienes ningún pedido</h5>
-                                    <p>Haz tu primer pedido</p>
-                                </div>
-                            </div>
+        <section class="dashboard white">
+            <div class="shipping-confirm white">
+                <div class="row ">
+                    <div class="col s10 offset-s1 center">
+                        <div class="icon-confirm">
+                            <div class="icon"><img src="" alt=""></div>
+                            <h5>Su pedido ha sido enviado</h5>
+                            <p>Los productos han sido enviado al distribuidor y seran procesados lo más rapido posible</p>
                         </div>
-                        <div style="padding-right: 5px !important;" class="col s6 p0">
-                            <div class="box">
-                                <p class="number blue-text">68</p>
-                                <div class="content">
-                                    <h5 class="title">Empresas</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div style="padding-left: 5px !important;" class="col s6 p0">
-                            <div class="box">
-                                <p class="number blue-text">4</p>
-                                <div class="content">
-                                    <h5 class="title">Rubros</h5>
-                                </div>
-                            </div>
-                        </div>
+                    </div>
+                    <div class="col s10 offset-s1 buton-confirm">
+                        <a href="" class="btn blue darken-1 waves-effect waves-light"> OK </a>
                     </div>
                 </div>
             </div>
-
-
         </section>
     </main>
 
